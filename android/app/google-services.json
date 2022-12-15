@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "779311544450",
+    "project_id": "salud-43912",
+    "storage_bucket": "salud-43912.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:779311544450:android:8c9f53a80835d06356dc9b",
+        "android_client_info": {
+          "package_name": "com.example.dientes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "779311544450-at064e86ro3hfbscnhbtkupqmr7cncdp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwL2iiQ7zANeOQIvZA5ucbOmyQSX3PCUg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "779311544450-at064e86ro3hfbscnhbtkupqmr7cncdp.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "779311544450-6civp2ksuif29l4vcuc67cu6lk6vcejf.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.dientes"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
