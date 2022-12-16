@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class uno extends StatefulWidget {
-  const uno({super.key});
+class cinco extends StatefulWidget {
+  const cinco({super.key});
 
   @override
-  State<uno> createState() => _unoState();
+  State<cinco> createState() => _unoState();
 }
 
-class _unoState extends State<uno> {
+class _unoState extends State<cinco> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -19,14 +19,14 @@ class _unoState extends State<uno> {
           Container(
             padding: EdgeInsets.all(20.0),
             child: Image.network(
-              'https://www.clinicagoya38.com/blog/wp-content/uploads/2019/05/Clases_caries_dental.jpg',
+              'https://c8.alamy.com/compes/wf8ttb/ilustracion-de-una-chica-mostrando-su-lengua-seca-y-agrietada-wf8ttb.jpg',
               height: 300,
               width: 200,
             ),
           ),
           Center(
             child: Text(
-              'Caries dental',
+              'Boca seca',
               style: TextStyle(fontSize: 16),
             ),
           ),
@@ -36,7 +36,7 @@ class _unoState extends State<uno> {
           ),
           Center(
             child: Text(
-              'Los dientes están cubiertos por una capa dura exterior conocida como esmalte. Cada día, una capa fina de bacterias llamada placa dental se forma sobre los dientes. Las bacterias en la placa dental producen ácidos que pueden dañar los dientes y hacer que se formen huecos en el esmalte (también conocidas como caries)',
+              'La boca seca ocurre cuando no se tiene suficiente saliva para mantener la boca húmeda. Esto puede hacer que le sea difícil comer, tragar, saborear e incluso hablar. La boca seca puede aumentar el riesgo de tener caries dental, infecciones de hongos en la boca y picaduras en los dientes. Muchos medicamentos comunes pueden causar este problema.',
               style: TextStyle(fontSize: 16),
             ),
           ),

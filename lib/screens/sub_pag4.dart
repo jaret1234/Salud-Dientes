@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class uno extends StatefulWidget {
-  const uno({super.key});
+class cuatro extends StatefulWidget {
+  const cuatro({super.key});
 
   @override
-  State<uno> createState() => _unoState();
+  State<cuatro> createState() => _unoState();
 }
 
-class _unoState extends State<uno> {
+class _unoState extends State<cuatro> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -19,14 +19,14 @@ class _unoState extends State<uno> {
           Container(
             padding: EdgeInsets.all(20.0),
             child: Image.network(
-              'https://www.clinicagoya38.com/blog/wp-content/uploads/2019/05/Clases_caries_dental.jpg',
+              'https://media.gettyimages.com/id/1328195841/es/vector/dientes-parloteos.jpg?s=612x612&w=gi&k=20&c=EnTa-n8aJMdzHKG8cIvS78TgsKvwCCPYBlG1n_KfqCg=',
               height: 300,
               width: 200,
             ),
           ),
           Center(
             child: Text(
-              'Caries dental',
+              'Dentadura postiza',
               style: TextStyle(fontSize: 16),
             ),
           ),
@@ -36,7 +36,7 @@ class _unoState extends State<uno> {
           ),
           Center(
             child: Text(
-              'Los dientes están cubiertos por una capa dura exterior conocida como esmalte. Cada día, una capa fina de bacterias llamada placa dental se forma sobre los dientes. Las bacterias en la placa dental producen ácidos que pueden dañar los dientes y hacer que se formen huecos en el esmalte (también conocidas como caries)',
+              'A veces, se necesita una dentadura postiza para reemplazar los dientes que estén muy dañados o que se han caído debido a la enfermedad de las encías. Se puede usar una dentadura o prótesis dental parcial para reemplazar uno o más dientes faltantes. Al principio, puede sentirse extraño usar una dentadura postiza.',
               style: TextStyle(fontSize: 16),
             ),
           ),

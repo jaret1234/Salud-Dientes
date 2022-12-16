@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class uno extends StatefulWidget {
-  const uno({super.key});
+class tres extends StatefulWidget {
+  const tres({super.key});
 
   @override
-  State<uno> createState() => _unoState();
+  State<tres> createState() => _unoState();
 }
 
-class _unoState extends State<uno> {
+class _unoState extends State<tres> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -19,14 +19,14 @@ class _unoState extends State<uno> {
           Container(
             padding: EdgeInsets.all(20.0),
             child: Image.network(
-              'https://www.clinicagoya38.com/blog/wp-content/uploads/2019/05/Clases_caries_dental.jpg',
+              'https://img.freepik.com/vector-premium/diente-malo-cute-dibujos-animados-dientes-felices-blancos-sanos-diente-triste-estropeado-amarillo-caras-sonrientes-problemas-dolor-muelas-cuidado-e-higiene-bucal-ninos-clinica-odontologia-ninos-concepto-dental-vector_176411-2061.jpg',
               height: 300,
               width: 200,
             ),
           ),
           Center(
             child: Text(
-              'Caries dental',
+              'Limpieza de los dientes y las encías',
               style: TextStyle(fontSize: 16),
             ),
           ),
@@ -36,7 +36,7 @@ class _unoState extends State<uno> {
           ),
           Center(
             child: Text(
-              'Los dientes están cubiertos por una capa dura exterior conocida como esmalte. Cada día, una capa fina de bacterias llamada placa dental se forma sobre los dientes. Las bacterias en la placa dental producen ácidos que pueden dañar los dientes y hacer que se formen huecos en el esmalte (también conocidas como caries)',
+              'Cepíllese suavemente los diferentes lados de los dientes con un cepillo de cerdas suaves y una pasta dental con flúor. Reemplace el cepillo de dientes cada tres a cuatro meses.',
               style: TextStyle(fontSize: 16),
             ),
           ),

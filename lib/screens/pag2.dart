@@ -1,4 +1,8 @@
 import 'package:dientes/screens/sub_pag1.dart';
+import 'package:dientes/screens/sub_pag2.dart';
+import 'package:dientes/screens/sub_pag3.dart';
+import 'package:dientes/screens/sub_pag4.dart';
+import 'package:dientes/screens/sub_pag5.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/container.dart';
 import 'package:flutter/src/widgets/framework.dart';
@@ -50,7 +54,7 @@ class _pagina_dosState extends State<pagina_dos> {
           InkWell(
             onTap: (() {
               Navigator.push(
-                  context, MaterialPageRoute(builder: (context) => uno()));
+                  context, MaterialPageRoute(builder: (context) => dos()));
             }),
             child: Row(
               children: [
@@ -78,7 +82,7 @@ class _pagina_dosState extends State<pagina_dos> {
           InkWell(
             onTap: (() {
               Navigator.push(
-                  context, MaterialPageRoute(builder: (context) => uno()));
+                  context, MaterialPageRoute(builder: (context) => tres()));
             }),
             child: Row(
               children: [
@@ -106,7 +110,7 @@ class _pagina_dosState extends State<pagina_dos> {
           InkWell(
             onTap: (() {
               Navigator.push(
-                  context, MaterialPageRoute(builder: (context) => uno()));
+                  context, MaterialPageRoute(builder: (context) => cuatro()));
             }),
             child: Row(
               children: [
@@ -134,7 +138,7 @@ class _pagina_dosState extends State<pagina_dos> {
           InkWell(
             onTap: (() {
               Navigator.push(
-                  context, MaterialPageRoute(builder: (context) => uno()));
+                  context, MaterialPageRoute(builder: (context) => cinco()));
             }),
             child: Row(
               children: [

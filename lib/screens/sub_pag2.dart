@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class uno extends StatefulWidget {
-  const uno({super.key});
+class dos extends StatefulWidget {
+  const dos({super.key});
 
   @override
-  State<uno> createState() => _unoState();
+  State<dos> createState() => _unoState();
 }
 
-class _unoState extends State<uno> {
+class _unoState extends State<dos> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -19,14 +19,14 @@ class _unoState extends State<uno> {
           Container(
             padding: EdgeInsets.all(20.0),
             child: Image.network(
-              'https://www.clinicagoya38.com/blog/wp-content/uploads/2019/05/Clases_caries_dental.jpg',
+              'https://statics-cuidateplus.marca.com/cms/styles/natural/azblob/enfermedad-periodontal.jpg.webp?itok=UMLE0G5U',
               height: 300,
               width: 200,
             ),
           ),
           Center(
             child: Text(
-              'Caries dental',
+              'Enfermedad de las encías',
               style: TextStyle(fontSize: 16),
             ),
           ),
@@ -36,7 +36,7 @@ class _unoState extends State<uno> {
           ),
           Center(
             child: Text(
-              'Los dientes están cubiertos por una capa dura exterior conocida como esmalte. Cada día, una capa fina de bacterias llamada placa dental se forma sobre los dientes. Las bacterias en la placa dental producen ácidos que pueden dañar los dientes y hacer que se formen huecos en el esmalte (también conocidas como caries)',
+              'La enfermedad de las encías, o enfermedad periodontal, comienza cuando se forma y se acumula una placa dental a lo largo y debajo de la línea de las encías. Esta placa causa una infección que daña las encías y los huesos que mantienen los dientes en su lugar. Una forma leve de la enfermedad de las encías puede hacer que se enrojezcan, se vuelvan sensibles y tengan más probabilidad de sangrar.',
               style: TextStyle(fontSize: 16),
             ),
           ),
