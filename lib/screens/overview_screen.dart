@@ -25,8 +25,8 @@ class _OverviewScreenState extends State<OverviewScreen> {
               style: kHeadBottomTxtStyle,
               child: AnimatedTextKit(
                 animatedTexts: [
-                  WavyAnimatedText("Congrats!"),
-                  WavyAnimatedText('Well Done!'),
+                  WavyAnimatedText("Felicidades!"),
+                  WavyAnimatedText('Bien hecho!'),
                 ],
                 isRepeatingAnimation: false,
               ),
@@ -49,7 +49,7 @@ class _OverviewScreenState extends State<OverviewScreen> {
                   },
                   animatedTexts: [
                     TyperAnimatedText(
-                      'Log out',
+                      'Cerrar sesión',
                     ),
                   ],
                 ))

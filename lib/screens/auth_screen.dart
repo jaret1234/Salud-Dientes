@@ -148,7 +148,7 @@ class AuthScreenState extends State<AuthScreen> {
                                 borderRadius: BorderRadius.circular(20)),
                             child: Center(
                               child: Text(
-                                _isLogin ? "Login" : "Sign up",
+                                _isLogin ? "Inicio de sesión" : "Regístrate",
                                 style: kBtnTxtStyle,
                               ),
                             ),
@@ -178,8 +178,8 @@ class AuthScreenState extends State<AuthScreen> {
                             child: Center(
                               child: Text(
                                   _isLogin
-                                      ? "Create new account"
-                                      : "I already have an account",
+                                      ? "Crear una nueva cuenta"
+                                      : "Ya tengo una cuenta",
                                   style: kHeadBottomTxtStyle.copyWith(
                                       fontSize: 22)),
                             ),
